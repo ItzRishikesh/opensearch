@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Amazon.CDK.AWS.OpenSearchService" Version="1.137.0" />
+    <PackageReference Include="AWSSDK.Core" Version="3.7.5.8" />
+    <PackageReference Include="AWSSDK.OpenSearchService" Version="3.7.2.6" />
+    <PackageReference Include="Elasticsearch.Net" Version="7.16.0" />
+    <PackageReference Include="NEST" Version="7.16.0" />
+  </ItemGroup>
+
+</Project>
